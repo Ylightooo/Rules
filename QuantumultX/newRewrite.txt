@@ -171,19 +171,6 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/app\.variflight\.com\/v\d\/advert\/ url reject-200
 # > 凤凰秀
 ^https?+:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid url reject-200
-
-# G
-# > Google
-# >> Youtube
-^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier) url reject-200
-^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad url reject-200
-^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking) url reject-200
-^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_ url reject-200
-# > Gofun
-^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject-200
-# > 国泰君安
-^https?+:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+?\.jpg$ url reject-200
-
 # H
 # > 杭州公交
 ^https?+:\/\/m\.ibuscloud\.com\/v2\/app\/getStartPage url reject-200
